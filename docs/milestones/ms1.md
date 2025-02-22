@@ -6,9 +6,9 @@ sidebar_position: 1
 
 Understanding the project scope and objectives.
 
-- [Project Specification](https://drive.google.com/file/d/1uCXBFhil09Yr2YHrk5a5Ey0mKMOUaUWx/view?usp=drive_link)
-- [Presentation](https://drive.google.com/file/d/1xMBPYOrXCkFtnyubDMI6AC4MizlMkFr_/view?usp=drive_link)
-- [Project Calendar](https://drive.google.com/file/d/1DdWoIuO5UG1ws-NjvxBGbSuVuaREE8Y3/view?usp=drive_link)
+- [Project Specification - TO BE ADDED]()
+- [Presentation - TO BE ADDED]()
+- [Project Calendar - TO BE ADDED]()
 
 ## Context
 
