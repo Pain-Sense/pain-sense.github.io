@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# MS1 - Inception Phase
+# MS1
 
 Understanding the project scope and objectives.
 
