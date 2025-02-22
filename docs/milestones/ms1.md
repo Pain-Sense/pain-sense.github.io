@@ -6,9 +6,9 @@ sidebar_position: 1
 
 Understanding the project scope and objectives.
 
-- [Project Specification - TO BE ADDED]()
-- [Presentation - TO BE ADDED]()
-- [Project Calendar - TO BE ADDED]()
+- [Project Specification - LINK TO BE ADDED]
+- [Presentation - LINK TO BE ADDED]
+- [Project Calendar - LINK TO BE ADDED]
 
 ## Context
 
