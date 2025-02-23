@@ -110,7 +110,7 @@ const config = {
               },
               {
                 label: "Christian Fernandes - 113717",
-                href: "mailto:",
+                href: "mailto:christian.fernandes@ua.pt",
               },
               {
                 label: "Diogo Guedes - 114256",
