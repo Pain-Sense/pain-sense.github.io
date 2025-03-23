@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_report_esij.svg').default,
     description: (
       <>
-        Provides precise, data-driven insights into pain thresholds using advanced sensor technology.
+        Provides precise, data-driven insights into health thresholds using sensor technology.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_data-trends_kv5v.svg').default,
     description: (
       <>
-        Track and analyze pain responses in real time with IoT connectivity, enabling better diagnosis and treatment decisions.
+        Track and analyze health data in real time with IoT connectivity, enabling better diagnosis and treatment decisions.
       </>
     ),
   },

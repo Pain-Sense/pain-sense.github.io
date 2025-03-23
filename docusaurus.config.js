@@ -8,8 +8,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Pain Sense",
-  tagline: "Captures and analyzes pain thresholds accurately.",
+  title: "Data-Driven Diagnostics",
+  tagline: "Measuring and managing physiological sensor analytics.",
 
   // Set the production url of your site here
   url: "https://pain-sense.github.io/",
@@ -56,7 +56,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Pain Sense",
+        title: "Data-Driven Diagnostics",
         items: [
           {
             type: 'docSidebar',
