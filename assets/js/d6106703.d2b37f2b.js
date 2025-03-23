@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpain_sense=self.webpackChunkpain_sense||[]).push([[612],{1967:e=>{e.exports=JSON.parse('{"title":"About","description":"Project information","slug":"/category/about","permalink":"/docs/category/about","navigation":{"next":{"title":"Potential Challenges","permalink":"/docs/about/challenges"}}}')}}]);
