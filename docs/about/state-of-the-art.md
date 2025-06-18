@@ -1,18 +1,37 @@
-# Context and State of The Art
+## Project Background and Challenges
 
-### Project Context
-- Lack of temporal consistency in data streams.
-- Difficulty in handling large volumes of sensor data with existing tools.
-- Inability to track and manage multiple devices efficiently.
-- Limited support for real-time data analysis and interpretation.
-- Privacy concerns with biometric data storage and transmission.
+This project evolved naturally from the previous version, which offered a basic integration between IoT sensors and a physiological data visualization system. While functional, the earlier solution faced several important limitations that affected its effectiveness, scalability, and suitability for more demanding uses.
 
-### State of The Art (SOA)
-- **Real-time Data Processing**: Supports real-time streaming and processing of large volumes of sensor data from multiple devices.
-- **Temporal Consistency**: Ensures temporal consistency in data streams for reliable analyses and time-series evaluations.
-- **Advanced Data Interpretation**: Leverages machine learning algorithms to analyze and interpret physiological data accurately, enabling better diagnostic support.
-- **Scalable Architecture**: Allows seamless integration of multiple devices and sensors, with support for both online and offline data streams.
-- **Anomaly Detection**: Provides real-time alerts for anomalies or data gaps in the sensor data, enhancing system reliability.
-- **Data Privacy & Security**: Implements robust mechanisms to protect biometric data and ensure compliance with privacy regulations.
-- **Efficient Storage & Querying**: Utilizes technologies like InfluxDB for efficient time-series data storage and retrospective analysis.
-- **Modular & Resilient Architecture**: Ensures high availability, fault tolerance, and scalability to handle increasing data volume and system complexity.
+  <img src="/img/StateofArt.png" alt="A cute kitten" />
+
+### Key Issues with the Previous Solution
+
+1. **Time Inconsistency in Data Streams**  
+   Without a real-time clock (RTC), data timestamps reflected when data arrived, not when it was actually collected. This made accurate time-based analysis difficult, which is essential for interpreting physiological signals properly.
+
+2. **Limited Scalability and Performance**  
+   The original system was designed as a prototype for a single device and could not handle large volumes of data efficiently.
+
+3. **Poor Management of Multiple Devices**  
+   The solution lacked flexible support for multiple connected devices. Device configurations were fixed in firmware, making it hard to adapt to different setups or add new sensors.
+
+4. **Weak Data Security and Privacy**  
+   Sensitive biometric data was not adequately protected during transmission or storage, exposing personal information to potential risks.
+
+### Technical Limitations of the Initial Architecture
+
+The original system used Node-RED for data flow, MySQL for database storage, and Mosquitto for MQTT communication. However, this setup had several drawbacks:
+
+- Wi-Fi and device IDs were hardcoded, requiring firmware updates for any changes.  
+- Using a traditional relational database (MySQL) limited handling of unstructured sensor data.  
+- MQTT brokers didn’t guarantee message order or support efficient data storage and processing, reducing reliability and scalability.
+
+### Why Reengineering Was Needed
+
+These challenges made it clear that a complete redesign was necessary. The new architecture aims to be more robust, flexible, and data-driven, with key goals to:
+
+- Ensure precise time synchronization for accurate temporal analysis.  
+- Improve performance and scalability to support many devices and large data volumes.  
+- Increase flexibility in device management, allowing network and configuration changes without code modifications.
+
+This led to the development of the current project, which better meets modern demands for performance, security, and scalability.
