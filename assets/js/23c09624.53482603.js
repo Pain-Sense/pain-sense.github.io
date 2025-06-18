@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpain_sense=self.webpackChunkpain_sense||[]).push([[996],{4651:t=>{t.exports=JSON.parse('{"title":"About The Project","description":"Project information","slug":"/category/about-the-project","permalink":"/docs/category/about-the-project","navigation":{"next":{"title":"Abstract","permalink":"/docs/about/Abstract"}}}')}}]);
